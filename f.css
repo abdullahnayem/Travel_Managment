@@ -1,0 +1,46 @@
+body{
+	background-image: url("background.png");
+	width: 960px;
+	margin-left: 260px;
+
+}
+input{
+	height: 40px;
+	width: 450px;
+	margin-left: 45px;
+}
+*{
+	padding: 0px;
+	margin:0px;
+}
+.inputbox{
+	
+	height: 400px;
+	background-image:background.png;
+	width: 960px;
+	background: aqua;
+	margin-left: 0px;
+	text-align: center;
+}
+label{
+	margin-left: 45px;
+}
+
+.na{
+	margin: 0 auto;
+	list-style: none;
+	text-decoration: none;
+	font-size: 20px;
+	width: 960px;
+	height: 100px;
+	background-color: #7a757594;
+	text-align: center;
+}
+.na nav ul li a:hover{
+	background-color: orange;
+	color: red;
+}
+.na nav ul li{
+	list-style: none;
+	color: red;
+}

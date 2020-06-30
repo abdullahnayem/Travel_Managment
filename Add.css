@@ -1,0 +1,23 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-image: url(background.png);
+}
+.add {
+    height: 250px;
+    width: 400px;
+    margin-top: 150px;
+    background: #a6b2a6;
+    margin-left: 500px;
+    border-radius: 10px;
+}
+input{
+	height: 30px;
+	width: 250px;
+}
+textarea{
+		height: 30px;
+	width: 250px;
+}

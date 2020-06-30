@@ -1,0 +1,338 @@
+
+*{margin: 0;padding: 0;outline: 0 }
+body{font-family: arial;font-size: 14px;line-height: 18px;
+    color:black;background: url(background.png) repeat fixed;
+}
+.templet{width: 960px; margin: 0 auto;}	
+.clear{overflow: hidden;}
+input[type="text"], input[type="email"] {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background: deepskyblue;
+    padding: 3px 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{background:pink;color: red }
+textarea {
+    width: 300px;
+    padding: 5px;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+}
+.headersection{ background: #919090; 
+	color: white}
+.logo{width: 500px; float: left; }
+.logo h2 {
+    margin-top: 20px;
+    padding: 2px;
+    font-size: 30px;
+    font-variant: small-caps;
+    font-style: italic;
+    margin-bottom: 10px;
+    color: aliceblue;
+    text-shadow: 2px 2px 0px cadetblue;
+}
+.logo img {
+        background: whitesmoke;
+    float: left;
+    padding: 10px 0px 10px 10px;
+    width: 75px;
+    margin-right: 30px;
+}
+.logo p{}
+.social{width: 182px; float:right; padding-top:20px }
+.social img {
+    width: 40px;
+    height: 40px;
+  
+}
+
+
+.navsection {
+    /* background-color: #E7E7D0; */
+    background: none repeat scroll 0 0 #E7E7E8;
+    min-height: 40px;
+}
+.navsection ul {}
+.navsection ul li {display: block;float: left; position:relative; }
+.navsection ul li a{
+	background: #cbcbcc none repeat scroll 0 0;
+	color :#444;
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 5px;
+	padding: 5px 40px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+.navsection ul li a:hover, #active{background: white;
+    color: #0e9d0e9c;}
+
+.navsection ul li ul{position: absolute;left:-99999px}
+.navsection ul li:hover ul{left: 0px;}
+.navsection ul li ul li{background: #e7e7e8;float: none;}
+.navsection ul li ul li a{
+
+    background: #cbcbcc none repeat scroll 0 0;
+    color: #444;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+    text-decoration: none;
+   
+
+}
+.navsection ul li ul li:hover a{color:red ;}
+
+.mySlides{
+    margin-top: 0PX;
+    margin-left: auto;
+    text-align: center;
+    height: 550px;
+    margin-right: auto;
+   width: 960px;
+    margin-bottom: 0px;
+
+}
+.slideimage{
+ 
+}
+
+.contentsection{background:white }
+
+
+
+.maincontent {
+    width: 648px;
+    background: #A6C6AB none repeat scroll 0 0;
+    float: left;
+    padding: 10px;
+    margin: 10px 15px 15px 0;
+    border: 1px solid black;
+}
+.about{}
+.about img {
+    float: left;
+    width: 250px;
+    height: 150px;
+    background: white;
+    padding: 5px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.about p {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.relatedpost{float: }
+.relatedpost h2 {
+    background: lavenderblush;
+    border-bottom: 2px solid #B780A2 !important;
+}
+.relatedpost img {
+    width: 91px;
+    height: 100px;
+    margin-bottom: 10px;
+}   
+.relatedpost img:hover{opacity:0.4 }
+
+.samepost{}
+.samepost h2, .about h2{
+	padding: 10px;
+	border-bottom: 2px solid #666666;
+	margin-bottom:10px;
+	font-size: 24px;
+	color: blue;
+
+}
+.samepost img {
+    float: left;
+    width: 215px;
+    margin-right: 10px;
+    background: darkseagreen;
+    padding: 5px;
+    border: 1px solid #9b999a;
+    border-radius: 15px;
+}
+.samepost p{
+	font-size: 16px;
+	line-height: 23px;
+	text-align: justify;
+}
+.samepost b{ color: white }
+.readmore{float: right;padding: 10px;}
+.readmore a {
+    text-decoration: none;
+    background: papayawhip;
+    padding: 4px 9px;
+    font-size: 16px;
+    border: 1px solid deepskyblue;
+    border-radius: 4px;
+}
+.readmore a:hover{color: #77b867f0;}
+.sidebar {
+    width: 253px;
+    background: #BBB9BA;
+    float: right;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid blue;
+}
+.samesidebar{margin-bottom: 10px;}
+.samesidebar p{margin-bottom: 12px;     text-align: justify;}
+.samesidebar h2{background-color: #9B999A; padding: 10px;color: #fff;margin-bottom: 8px;border-bottom: 2px solid #555555;}
+.samesidebar ul{padding: 0;margin: o;list-style: none;}
+.samesidebar ul li {
+    background: white;
+    font-size: 16px;
+    padding: 5px 8px;
+    border-bottom: 1px dashed blanchedalmond;
+
+}
+.samesidebar ul li:last-child {border-bottom: 0px dashed blanchedalmond;}
+.samesidebar ul li a{text-decoration: none;
+        }
+.samesidebar ul li a:hover{color: red}
+.popular{}
+.popular h3 {
+    font-weight: normal;
+    font-size: 18px;
+    border-bottom: 1px dashed green;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.popular h3 a{text-decoration: none;color: darkgreen;}
+.popular p{}
+.popular img {
+    width: 55px;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 4px;
+    background: #fff;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.gallarysection{
+    width: 960px;
+    background-color: red;
+
+}
+ .gallary{    margin: 0px;
+  border: 1px solid black;
+  float: left;
+
+}
+.gallary h1{
+    padding: 15px;
+    background-color: powderblue;
+}
+
+.gallary img{
+    height: 300px;
+    width: 400px
+}
+
+
+.footersection{
+    height: 90px;
+    background:#334433;
+    text-align: center; 
+}
+.footersection a{
+    color: white;
+}
+
+.footermenu{ 
+    margin-top:25px;
+    margin-bottom: 5px;  
+}
+.footermenu ul{ 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center; 
+}
+.footermenu ul li{display: inline-block; }
+.footermenu ul li a{color: #e6af4b; font-size: 18px;margin-right:5px; }
+.footersection p{color: #E6AF05;}
+.fixedicon{position: fixed;left: 0;top: 200px;width: 60px}
+.fixedicon img{width: 40px;}
+
+.googlemap{  }
+ #map {
+      width: 400px;
+      height: 400px;
+    }
+    
+
+.all2 {
+    
+    width: 150px;
+    background: #BBB9BA repeat scroll 0 0;
+    float: left;
+    padding: 10px;
+    margin: 10px 15px 15px 0;
+    position: fixed;
+}
+.all2 ul li{
+list-style-type:none;
+}
+.all2 ul li a{
+    text-decoration: none;
+}
+.allside {
+    float: right;
+    width: 400px;
+    margin-top: 0;
+
+}
+
+.place-title{font-size: 30px;
+
+
+}
+.kuakatarelated{
+
+                
+                margin-top:3000px;
+} 
+.kuakatarelated img{
+    padding: 7px;
+    height: 250px;
+    width: 300px;
+
+
+}
+.brif{
+    background: #A6C6B9;
+    text-align: justify;
+}
+.brif img {
+    height: 300px;
+    width: 390px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.brif iframe{
+    width: 400px;
+    height: 300px;
+
+}
